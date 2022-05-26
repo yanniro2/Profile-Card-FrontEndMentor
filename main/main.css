@@ -1,0 +1,116 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+html {
+  font-size: 112.5%;
+}
+
+@media only screen and (max-width: 550px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #19a2ae;
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+}
+
+.container {
+  margin: 4rem auto;
+}
+
+.card {
+  max-width: 50vw;
+  max-height: 60vh;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card-profile {
+  margin: 1rem;
+}
+
+.card-profile_img {
+  margin-top: -4rem;
+  border-radius: 50%;
+  border: 0.3rem solid #fff;
+}
+
+.card-profile_h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.card-profile_h1-span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6a6f81;
+}
+
+.card-profile_p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #969696;
+}
+
+.card-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 1rem;
+}
+
+.card-bottom_block {
+  margin: 1rem;
+}
+
+.card-bottom_block-h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.card-bottom_block-p {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #6a6f81;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=main.css.map */
